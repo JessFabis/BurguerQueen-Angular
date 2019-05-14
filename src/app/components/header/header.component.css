@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.navbar {
+    color: black;
+    background-color: #fac105;
+    width: 680px;
+    height: 55px;
+    border-radius: 2px;
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
+.launcher {
+    width: 49px;
+    height: 49px;
+    object-fit: contain;
+    border-radius: 36px;
+}
