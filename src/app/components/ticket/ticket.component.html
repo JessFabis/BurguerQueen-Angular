@@ -1,3 +1,47 @@
-<p>
-  ticket works!
-</p>
+<div class="container">
+    <div class="box">
+
+
+        <div class="header"> Cant. Producto Precio </div>
+    </div>
+    <div class="footer"> Total $00.00
+        <br>
+        <button style="margin: 10px" type="button" class="cancel" [routerLink]="['cancelar']">Cancelar Orden</button>
+        <button style="margin-left: 10px" type="button" class="confirm" [routerLink]="['confirmar']">Confirmar Orden</button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg .navbar-expand{-sm10|-md15|-lg30|-xl11}">
+
+        <a class="navbar-brand" href="#">
+            <img class="launcher" src="assets/images/launcher.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item " routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['desayuno']">Desayuno<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['hamburguesas']">Hamburguesas</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['bebidas']">Bebidas</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link " [routerLink]="['complementos']">Complementos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+</div>
