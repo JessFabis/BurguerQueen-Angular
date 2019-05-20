@@ -1,11 +1,10 @@
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<br>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<br>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<br>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-primary btn-dark" *ngFor="let hamburguesa of hamburguesas">
+    
+ <img class="icono" src="{{hamburguesa.img}}">
+    
+   &nbsp;<a>{{hamburguesa.name}}</a>
+   <br>
+   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a>${{hamburguesa.price}}</a>
+
+
+</button>

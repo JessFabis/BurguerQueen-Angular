@@ -1,2 +1,10 @@
-<button type="button" class="btn btn-primary btn-lg">Papas a la Francesa</button>
-<button type="button" class="btn btn-primary btn-lg">Aros de cebolla</button>
+<button type="button" class="btn btn-primary btn-dark" *ngFor="let complemento of complementos">
+    
+    <img class="icono" src="{{complemento.img}}">
+       
+      &nbsp;<a>{{complemento.name}}</a>
+      <br>
+      &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a>${{complemento.price}}</a>
+   
+   
+   </button>

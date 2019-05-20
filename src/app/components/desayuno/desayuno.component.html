@@ -1,5 +1,10 @@
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<br>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-primary btn-dark" *ngFor="let breakfast of desayuno">
+    
+    <img class="icono" src="{{breakfast.img}}">
+       
+      &nbsp;<a>{{breakfast.name}}</a>
+      <br>
+      &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a>${{breakfast.price}}</a>
+   
+   
+   </button>

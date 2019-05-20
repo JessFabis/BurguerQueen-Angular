@@ -7,6 +7,11 @@ import { APP_ROUTING } from './app.routes';
 
 
 //Servicios
+import { DesayunoService } from './servicios/desayuno.service';
+import { HamburguesasService } from './servicios/hamburguesas.service';
+import { BebidasService } from './servicios/bebidas.service';
+import { ComplementosService } from './servicios/complementos.service';
+
 
 
 //Componentes
@@ -38,7 +43,12 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    DesayunoService,
+    HamburguesasService,
+    BebidasService,
+    ComplementosService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,11 +2,8 @@
 
 body {
     background-color: #eeece6;
-    display: grid;
-    grid-auto-columns: 344px 344px 344px;
-    grid-auto-rows: 744px;
-    margin: 0%;
 }
+
 
 /*Animaciones*/
 
