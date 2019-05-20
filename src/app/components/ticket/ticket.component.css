@@ -1,0 +1,101 @@
+/*Tablet Vertical*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+
+
+/*iPad Horizontal*/
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 768px) and (orientation: portrait) {
+    .container {
+        display: grid;
+        grid-template-columns: 345px 345px 334px;
+        grid-template-rows: 55px 463px 114px 136px;
+        margin-right: 0%;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 345px 345px 334px;
+    grid-template-rows: 55px 463px 114px 136px;
+    margin: auto;
+}
+
+.box {
+    border: 1px solid #707070;
+    grid-column: 3/4;
+    grid-row: 1/5;
+    margin-right: 0%;
+    background-color: #eeece6;
+}
+
+.header {
+    grid-column: 3/4;
+    grid-row: -5/-4;
+    margin-right: 0%;
+    background-color: #eeece6;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bolder;
+    word-spacing: 30pt;
+}
+
+.footer {
+    grid-column: 3/4;
+    grid-row: -1/-2;
+    margin-right: 0%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bolder;
+    word-spacing: 90pt;
+}
+
+.confirm {
+    width: 147px;
+    height: 76px;
+    border-radius: 24px;
+    border: solid 2px #721a16;
+    background-color: #721a16;
+    color: #fac105;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.85;
+}
+
+.cancel {
+    width: 147px;
+    height: 76px;
+    border-radius: 24px;
+    border: solid 2px #721a16;
+    color: #721a16;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.85;
+}
+
+.navbar {
+    grid-column: 1/3;
+    color: black;
+    background-color: #fac105;
+    width: 680px;
+    height: 55px;
+    border-radius: 2px;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+
+.launcher {
+    width: 49px;
+    height: 49px;
+    object-fit: contain;
+    border-radius: 36px;
+}

@@ -1,0 +1,9 @@
+.btn {
+    width: 238.6px;
+    height: 115px;
+    border-radius: 12px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 3px #721a16;
+    background-color: transparent;
+    color: black;
+}
