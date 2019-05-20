@@ -1,2 +1,10 @@
-<button type="button" class="btn btn-primary btn-lg">Refresco</button>
-<button type="button" class="btn btn-primary btn-lg">Agua</button>
+<button type="button" class="btn btn-primary btn-dark" *ngFor="let bebida of bebidas">
+    
+    <img class="icono" src="{{bebida.img}}">
+       
+      &nbsp;<a>{{bebida.name}}</a>
+      <br>
+      &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a>${{bebida.price}}</a>
+   
+   
+   </button>

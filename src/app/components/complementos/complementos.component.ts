@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ComplementosService,Complemento } from '../../servicios/complementos.service';
 @Component({
   selector: 'app-complementos',
   templateUrl: './complementos.component.html',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComplementosComponent implements OnInit {
 
-  constructor() { }
+    
+  complementos:Coplemento[]=[];
+
+  constructor( private _complementosService:ComplementosService) {
+
+    
+   }
 
   ngOnInit() {
+
+    this.complementos = this._complementosService.getComplementos();
+    console.log(this.complementos);
   }
 
 }
