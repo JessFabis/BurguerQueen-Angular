@@ -1,6 +1,6 @@
 # Burger Queen
 
-[Presentación del Proyecto] ( https://docs.google.com/document/d/13WMUMSCKdPPvlub398k8c9Q4g6oi6oavWKuoJyqL-5U/edit?usp=sharing)
+[Presentación-del-proyecto]( https://docs.google.com/document/d/13WMUMSCKdPPvlub398k8c9Q4g6oi6oavWKuoJyqL-5U/edit?usp=sharing)
 
 ## Preámbulo
 
