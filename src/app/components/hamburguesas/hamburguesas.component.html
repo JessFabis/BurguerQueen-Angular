@@ -1,10 +1,14 @@
-<button type="button" class="btn btn-primary btn-dark" *ngFor="let hamburguesa of hamburguesas">
-    
- <img class="icono" src="{{hamburguesa.img}}">
-    
-   &nbsp;<a>{{hamburguesa.name}}</a>
-   <br>
-   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a>${{hamburguesa.price}}</a>
+<div class="container animated fadeIn fast">
 
-
+    <button type="button" id="{{hamburguesa.num}}" class="btn btn-primary btn-dark" *ngFor="let hamburguesa of hamburguesas">
+  
+  <img class="icono" src="{{hamburguesa.img}}">
+  
+  &nbsp;<a>{{hamburguesa.name}}</a>
+  <br>
+  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<a>${{hamburguesa.price}}</a>
+  
+  
 </button>
+
+</div>

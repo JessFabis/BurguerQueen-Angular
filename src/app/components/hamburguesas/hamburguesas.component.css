@@ -1,3 +1,60 @@
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 345px 345px 334px;
+    grid-template-rows: 128px 128px 128px 128px 114px 136px;
+    width: 60%;
+    top: 20%;
+}
+
+#uno {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: auto;
+}
+
+#dos {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: auto;
+}
+
+#tres {
+    grid-column: 1/2;
+    grid-row: 2;
+    margin: auto;
+}
+
+#cuatro {
+    grid-column: 2/3;
+    grid-row: 2;
+    margin: auto;
+}
+
+#cinco {
+    grid-column: 1/2;
+    grid-row: 3;
+    margin: auto;
+}
+
+#seis {
+    grid-column: 2/3;
+    grid-row: 3;
+    margin: auto;
+}
+
+#siete {
+    grid-column: 1/2;
+    grid-row: 4;
+    margin: auto;
+}
+
+#ocho {
+    grid-column: 2/3;
+    grid-row: 4;
+    margin: auto;
+}
+
 .btn {
     width: 238.6px;
     height: 115px;

@@ -5,25 +5,25 @@ export class DesayunoService {
     
     private desayuno:Desayuno[]= [
         {
-        num: 1,
+        num: "one",
         name: "Sandwich de jamón y queso",
         price: 35,
         img:"assets/images/pan.png"
     },
     {
-        num: 2,
+        num: "two",
         name: "Jugo Natura",
         price: 15,
         img:"assets/images/jugo.png"
     },
     {
-        num: 3,
+        num: "three",
         name: "Café Americano",
         price: 20,
         img:"assets/images/taza-para-cafe.png"
     },
     {
-        num: 4,
+        num: "four",
         name: "Café con Leche",
         price: 28,
         img:"assets/images/capuchino.png"
@@ -41,7 +41,7 @@ export class DesayunoService {
 }
 
 export interface Desayuno{
-    num: number;
+    num: string;
     name:string;
     price:number;
     img:string;

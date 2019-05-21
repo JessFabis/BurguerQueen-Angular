@@ -1,4 +1,5 @@
-<button type="button" class="btn btn-primary btn-dark" *ngFor="let complemento of complementos">
+<div class="container animated fadeIn fast">
+    <button type="button" id="{{complemento.num}}" class="btn btn-primary btn-dark" *ngFor="let complemento of complementos">
     
     <img class="icono" src="{{complemento.img}}">
        
@@ -8,3 +9,5 @@
    
    
    </button>
+
+</div>

@@ -16,7 +16,6 @@ import { ComplementosService } from './servicios/complementos.service';
 
 //Componentes
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { DesayunoComponent } from './components/desayuno/desayuno.component';
 import { HamburguesasComponent } from './components/hamburguesas/hamburguesas.component';
@@ -29,7 +28,6 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     BodyComponent,
     DesayunoComponent,
     HamburguesasComponent,

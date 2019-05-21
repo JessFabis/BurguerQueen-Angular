@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 690px 334px;
+    grid-template-rows: 55px 712px;
+    width: 66%;
+    height: 90%;
+    top: 10%;
+    background-color: #fac105;
+}
+
+.alert {
+    width: 67%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin: auto;
+    background-color: transparent;
+}
+
+h4 {
+    color: #721a16;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}

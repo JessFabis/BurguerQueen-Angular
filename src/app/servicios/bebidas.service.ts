@@ -5,13 +5,13 @@ export class BebidasService {
     
     
     private bebidas:Bebida[]= [{
-        num: 1,
+        num: "uno",
         name: "Refresco",
         price: 15,
         img:"assets/images/refresco.png"
     },
     {
-        num:2,
+        num:"dos",
         name: "Agua",
         price:10,
         img:"assets/images/agua.png"
@@ -29,7 +29,7 @@ export class BebidasService {
 }
 
 export interface Bebida{
-    num: number;
+    num: string;
     name:string;
     price:number;
     img:string;

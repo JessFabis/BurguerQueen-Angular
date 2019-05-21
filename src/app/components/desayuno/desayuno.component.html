@@ -1,4 +1,5 @@
-<button type="button" class="btn btn-primary btn-dark" *ngFor="let breakfast of desayuno">
+<div class="container animated fadeIn fast ">
+    <button type="button" id="{{breakfast.num}}" class="btn btn-primary btn-dark" *ngFor="let breakfast of desayuno">
     
     <img class="icono" src="{{breakfast.img}}">
        
@@ -8,3 +9,4 @@
    
    
    </button>
+</div>

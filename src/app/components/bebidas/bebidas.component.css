@@ -1,3 +1,24 @@
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 345px 345px 334px;
+    grid-template-rows: 55px 231px 231px 114px 136px;
+    width: 70%;
+    top: 30%;
+}
+
+#uno {
+    grid-column: 1/2;
+    grid-row: 2;
+    margin: auto;
+}
+
+#dos {
+    grid-column: 2/3;
+    grid-row: 2;
+    margin: auto;
+}
+
 .btn {
     width: 238.6px;
     height: 115px;
