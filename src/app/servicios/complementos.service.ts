@@ -6,13 +6,13 @@ export class ComplementosService {
     
     private complementos:Complemento[]= [
         {
-        num: 1,
+        num: "uno",
         name: "Papas a la Francesa",
         price: 15,
         img:"assets/images/papas.png"
     },
     {
-        num: 2,
+        num: "dos",
         name: "Aros de Cebolla",
         price: 15,
         img:"assets/images/aros.png"
@@ -29,7 +29,7 @@ export class ComplementosService {
     }
 }
 export interface Complemento{
-    num: number;
+    num: string;
     name:string;
     price:number;
     img:string;

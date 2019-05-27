@@ -14,10 +14,16 @@
     }
 }
 
+#contador {
+    color: red;
+    font-size: 45px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 345px 345px 334px;
     grid-template-rows: 55px 463px 114px 136px;
+    width: 100%;
     margin: auto;
 }
 
@@ -98,4 +104,9 @@
     height: 49px;
     object-fit: contain;
     border-radius: 36px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 700;
 }

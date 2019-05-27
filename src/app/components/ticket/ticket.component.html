@@ -3,10 +3,24 @@
 
 
         <div class="header"> Cant. Producto Precio </div>
+
+        <p id="contador">{{_pedidoService.contador}}</p>
+
+        <div class="ticket">
+
+            <article class="order-ticket" *ngFor="let orden of _pedidoService.order">
+                <p>{{orden.name}} ${{orden.price}}.00</p>
+
+            </article>
+
+        </div>
+
+
+
     </div>
     <div class="footer"> Total $00.00
         <br>
-        <button style="margin: 10px" type="button" class="cancel" [routerLink]="['cancelar']">Cancelar Orden</button>
+        <button style="margin: 10px" type="button " class="cancel  " [routerLink]="['cancelar']">Cancelar Orden</button>
         <button style="margin-left: 10px" type="button" class="confirm" [routerLink]="['confirmar']">Confirmar Orden</button>
     </div>
 

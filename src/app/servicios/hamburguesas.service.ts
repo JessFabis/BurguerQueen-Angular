@@ -5,7 +5,7 @@ export class HamburguesasService {
 
      private hamburguesas: Hamburguesa []=[
     {
-        num: 1,
+        num: "uno",
         name: "Sencila Res",
         price: 40,
         img:"assets/images/hamburguesa.png",
@@ -20,7 +20,7 @@ export class HamburguesasService {
         ]
     },
     {
-        num: 2,
+        num: "dos",
         name: "Doble Res",
         price: 55,
         img: "assets/images/hamdoble.png",
@@ -35,7 +35,7 @@ export class HamburguesasService {
         ]
     },
     {
-        num: 3,
+        num: "tres",
         name: "Sencilla Pollo",
         price:40,
         img: "assets/images/hamburguesa.png",
@@ -50,7 +50,7 @@ export class HamburguesasService {
         ]
     },
     {
-        num: 4,
+        num:"cuatro",
         name: "Doble Pollo",
         price: 55,
         img: "assets/images/hamdoble.png",
@@ -65,7 +65,7 @@ export class HamburguesasService {
         ]
     },
     {
-        num: 5,
+        num: "cinco",
         name: "Sencilla Vegetarina",
         price: 40,
         img: "assets/images/hamburguesa.png",
@@ -80,7 +80,7 @@ export class HamburguesasService {
         ]
     },
     {
-        num: 6,
+        num: "seis",
         name: "Doble Vegetariana",
         price: 55,
         img: "assets/images/hamdoble.png",
@@ -96,14 +96,14 @@ export class HamburguesasService {
 
     },
     {
-        num: 7,
+        num:"siete",
         name: "Extra Queso",
         price: 15,
         img: "assets/images/queso.png",
         ingredientes: "null"
     },
     {
-        num: 8,
+        num: "ocho",
         name: "Huevo",
         price: 18,
         img: "assets/images/huevo.png",
@@ -120,7 +120,7 @@ export class HamburguesasService {
 
 }
     export  interface Hamburguesa{
-        num: number;
+        num: string;
         name: string;
         price: number;
         img: string;

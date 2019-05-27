@@ -8,7 +8,7 @@ import { ComplementosService,Complemento } from '../../servicios/complementos.se
 export class ComplementosComponent implements OnInit {
 
     
-  complementos:Coplemento[]=[];
+  complementos:Complemento[]=[];
 
   constructor( private _complementosService:ComplementosService) {
 

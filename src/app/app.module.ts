@@ -11,12 +11,13 @@ import { DesayunoService } from './servicios/desayuno.service';
 import { HamburguesasService } from './servicios/hamburguesas.service';
 import { BebidasService } from './servicios/bebidas.service';
 import { ComplementosService } from './servicios/complementos.service';
+import { PedidoService } from './servicios/pedido.service';
+
 
 
 
 //Componentes
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { DesayunoComponent } from './components/desayuno/desayuno.component';
 import { HamburguesasComponent } from './components/hamburguesas/hamburguesas.component';
@@ -29,7 +30,6 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     BodyComponent,
     DesayunoComponent,
     HamburguesasComponent,
@@ -47,7 +47,8 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
     DesayunoService,
     HamburguesasService,
     BebidasService,
-    ComplementosService
+    ComplementosService,
+    PedidoService
   ],
   bootstrap: [AppComponent]
 })
