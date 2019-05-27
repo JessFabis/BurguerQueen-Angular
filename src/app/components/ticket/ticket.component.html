@@ -4,7 +4,7 @@
 
         <div class="header"> Cant. Producto Precio </div>
 
-        <p id="contador">{{_pedidoService.contador}}</p>
+        <p id="contador">{{_pedidoService.contador}} Productos Agregados</p>
 
 
         <div class="ticket">
@@ -19,8 +19,10 @@
 
 
 
+
+
     </div>
-    <div class="footer"> Total $00.00
+    <div class="footer" *ngIf="totalPay(_pedidoService.order)"> Total ${{adding}}.00
         <br>
         <button style="margin: 10px" type="button " class="cancel  " [routerLink]="['cancelar']">Cancelar Orden</button>
         <button style="margin-left: 10px" type="button" class="confirm" [routerLink]="['confirmar']">Confirmar Orden</button>

@@ -15,8 +15,11 @@
 }
 
 #contador {
-    color: red;
-    font-size: 45px;
+    color: #721a16;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
 }
 
 .container {

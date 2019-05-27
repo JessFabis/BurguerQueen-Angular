@@ -1,6 +1,6 @@
 # Burger Queen
 
-[Presentación-del-proyecto]( https://docs.google.com/document/d/13WMUMSCKdPPvlub398k8c9Q4g6oi6oavWKuoJyqL-5U/edit?usp=sharing)
+[Presentación-del-proyecto]( https://docs.google.com/presentation/d/1NtwehvN3u6cBzgNGSSv5Wglq7TSMqzTec2viuh1KcaI/edit?usp=sharing)
 
 [BurgerQueen-Firebase(Hosting)](https://burger-queen-4901a.firebaseapp.com/desayuno)
 
