@@ -1,6 +1,6 @@
 <div class="container animated fadeIn fast">
 
-    <button type="button" id="{{hamburguesa.num}}" class="btn btn-primary btn-dark" *ngFor="let hamburguesa of hamburguesas">
+    <button type="button" (click)="searchPedido(i)" (click)="incrementar()" id="{{hamburguesa.num}}" class="btn btn-primary btn-dark" *ngFor="let hamburguesa of hamburguesas; let i = index">
   
   <img class="icono" src="{{hamburguesa.img}}">
   

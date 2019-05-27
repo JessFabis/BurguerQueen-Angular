@@ -1,5 +1,5 @@
 <div class="container animated fadeIn fast">
-    <button type="button" id="{{complemento.num}}" class="btn btn-primary btn-dark" *ngFor="let complemento of complementos">
+    <button type="button" (click)="searchPedido(i)" (click)="incrementar()" id="{{complemento.num}}" class="btn btn-primary btn-dark" *ngFor="let complemento of complementos ; let i = index">
     
     <img class="icono" src="{{complemento.img}}">
        
