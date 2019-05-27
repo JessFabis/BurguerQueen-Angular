@@ -1,5 +1,5 @@
 <div class="container animated fadeIn fast">
-    <button type="button" id="{{bebida.num}}" class="btn btn-primary btn-dark" *ngFor="let bebida of bebidas">
+    <button type="button" id="{{bebida.num}}" class="btn btn-primary btn-dark" *ngFor="let bebida of bebidas" (click)="incrementar()">
     
     <img class="icono" src="{{bebida.img}}">
        

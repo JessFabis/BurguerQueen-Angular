@@ -11,6 +11,8 @@ import { DesayunoService } from './servicios/desayuno.service';
 import { HamburguesasService } from './servicios/hamburguesas.service';
 import { BebidasService } from './servicios/bebidas.service';
 import { ComplementosService } from './servicios/complementos.service';
+import { PedidoService } from './servicios/pedido.service';
+
 
 
 
@@ -45,7 +47,8 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
     DesayunoService,
     HamburguesasService,
     BebidasService,
-    ComplementosService
+    ComplementosService,
+    PedidoService
   ],
   bootstrap: [AppComponent]
 })

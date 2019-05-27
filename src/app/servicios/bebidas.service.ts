@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 export class BebidasService {
     
     
-    private bebidas:Bebida[]= [{
+    public bebidas:Bebida[]= [{
         num: "uno",
         name: "Refresco",
         price: 15,
