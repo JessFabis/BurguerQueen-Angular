@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PedidoService } from '../../servicios/pedido.service';
-import { BebidasService,Bebida} from '../../servicios/bebidas.service';
+
 
 @Component({
   selector: 'app-ticket',
@@ -9,15 +9,13 @@ import { BebidasService,Bebida} from '../../servicios/bebidas.service';
 })
 export class TicketComponent implements OnInit {
 
-  bebidaPedido:Bebida[]=[];
 
-  constructor(private _pedidoService:PedidoService,
-              private _bebidasService:BebidasService) { }
+  constructor(private _pedidoService:PedidoService) { }
     
-    pedido:number;
+    
   ngOnInit() {
 
-    this.pedido = this._pedidoService.bebida;
+  
     
     
    

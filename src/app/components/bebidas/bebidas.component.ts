@@ -22,13 +22,28 @@ export class BebidasComponent implements OnInit {
     
     this.bebidas = this._bebidasService.getBebidas();
     console.log(this.bebidas);
- 
- 
-
   }
-  public incrementar(){
-    console.log('metodo incrementar');
+
+  thing:object;
+
+  public add(){
+    
     this._pedidoService.incrementValue();
+
+}
+public incrementar(){
+  console.log('metodo incrementar');
+  this._pedidoService.incrementValue();
+}
+
+public searchPedido( index ){
+  this.bebidas.forEach(element => {
+    if(this.bebidas.indexOf(element) == index){
+      this.thing=element;
+      console.log(this.thing)
+      this._pedidoService.paintProduct(this.thing);
+    }
+  })
 }
 
 }

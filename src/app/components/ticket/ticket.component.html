@@ -6,10 +6,12 @@
 
         <p id="contador">{{_pedidoService.contador}}</p>
 
+
         <div class="ticket">
 
+
             <article class="order-ticket" *ngFor="let orden of _pedidoService.order">
-                <p>{{orden.name}} ${{orden.price}}.00</p>
+                <p class="letra"><br>&nbsp; &nbsp;1 &nbsp;&nbsp;&nbsp;{{orden.name}}&nbsp;&nbsp;${{orden.price}}</p>
 
             </article>
 
