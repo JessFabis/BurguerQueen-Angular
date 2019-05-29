@@ -115,6 +115,7 @@
 }
 
 .order-ticket {
+    box-sizing: content-box;
     margin-left: auto;
     margin-right: auto;
     width: 316px;
@@ -138,4 +139,10 @@
     letter-spacing: normal;
     text-align: left;
     color: var(--black);
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    align-self: right;
 }
