@@ -22,5 +22,14 @@ export class PedidoService {
     console.log("checa",this.order);
   
   }
+  public trash (index){
+    this.order.forEach(element => {
+      if (this.order.indexOf(element)=== index){
+        this.order.splice(index,1);
+        console.log(this.order);
+      }
+      
+    });
+  }
   
 }

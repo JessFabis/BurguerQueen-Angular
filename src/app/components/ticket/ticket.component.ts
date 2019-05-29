@@ -18,12 +18,20 @@ export class TicketComponent implements OnInit {
  totalPay(arreglo:any[]){
    if(arreglo.length != this.inicial){
     this.adding=0;
-     for(let Total of arreglo)
-      this.adding += Total.price;
+     for(let total of arreglo)
+      this.adding += total.price;
       console.log(this.adding);
        return this.adding;
    }
  };
+ retornando(){
+   return this._pedidoService.order;
+
+ }
+ getTrash(index){
+   return this._pedidoService.trash(index);
+ }
+
     
     
   ngOnInit() {

@@ -10,8 +10,8 @@
         <div class="ticket">
 
 
-            <article class="order-ticket" *ngFor="let orden of _pedidoService.order">
-                <p class="letra"><br>&nbsp; &nbsp;1 &nbsp;&nbsp;&nbsp;{{orden.name}}&nbsp;&nbsp;${{orden.price}}</p>
+            <article class="order-ticket" *ngFor="let orden of retornando();let i =index">
+                <p class="letra"><br>&nbsp; &nbsp;1 &nbsp;&nbsp;&nbsp;{{orden.name}}&nbsp;&nbsp;${{orden.price}} <img (click)="getTrash(i)" src="../../../assets/images/borrar.png"> </p>
 
             </article>
 
@@ -22,7 +22,7 @@
 
 
     </div>
-    <div class="footer" *ngIf="totalPay(_pedidoService.order)"> Total ${{adding}}.00
+    <div class="footer" *ngIf="totalPay(retornando())"> Total ${{adding}}.00
         <br>
         <button style="margin: 10px" type="button " class="cancel  " [routerLink]="['cancelar']">Cancelar Orden</button>
         <button style="margin-left: 10px" type="button" class="confirm" [routerLink]="['confirmar']">Confirmar Orden</button>
